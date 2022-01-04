@@ -114,7 +114,7 @@ def init_chat():
         goodbye()
     else:
         prCyan("You appear to have not typed 'ok'. Please type 'ok' if you understand or 'q' to quit.")
-        user_input = input
+        user_input = input()
         user_input = user_input.lower()
         if(user_input == ("ok")):
             prCyan("Great! Let's talk.")
